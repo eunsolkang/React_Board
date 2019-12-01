@@ -1,0 +1,14 @@
+{
+  "information" : [
+    {
+      "id" : 0,
+      "name" : "test1",
+      "rank" : "S"
+    },
+    {
+      "id" : 1,
+      "name" : "test2",
+      "rank" : "A"
+    }
+  ]
+}

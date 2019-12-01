@@ -1,0 +1,33 @@
+.movie-list{
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+
+}
+.movie-list figure{
+  display: inline-block;
+  /* margin:1rem; */
+  margin-bottom: 15px;
+  padding:0.7rem;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);;
+}
+
+.movie-list figure img{
+  float: right;
+  width:20px;
+}
+.movie-list figure figcaption{
+  display: flex;
+  padding:10px;
+  margin-top:11px;
+  justify-content:space-between;
+}
+.movie-list figure figcaption .card-name{
+  font-size: 15pt;
+}
+.movie-list figure figcaption .card-rank{
+  font-size: 15pt;
+  font-weight: 700;
+}
